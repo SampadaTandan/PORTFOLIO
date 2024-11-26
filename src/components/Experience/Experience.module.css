@@ -1,0 +1,52 @@
+.experience {
+    padding: 60px 10%;
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .experienceList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .experienceItem {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .position {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .company {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .dates {
+    font-size: 18px;
+    color: var(--color-secondary);
+    margin-bottom: 15px;
+  }
+  
+  .responsibilities {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .responsibilities li {
+    margin-bottom: 10px;
+  }

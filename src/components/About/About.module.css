@@ -1,0 +1,52 @@
+@import "../../vars.css";
+
+.about {
+    padding: 60px 10%;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: var(--color-primary);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aboutImg {
+    border-radius: 50%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.text {
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+}
